@@ -1,0 +1,18 @@
+{
+  "name": "ejercitacion",
+  "version": "1.0.0",
+  "description": "Ejercitacion de la clase 17",
+  "main": "/app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "CrisGiraldo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

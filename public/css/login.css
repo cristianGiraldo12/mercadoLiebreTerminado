@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+:root{
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --GrisOscuro: #666;
+    --GrisClaro: #ebebeb;
+    --Verde: #39b54a;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+/* VERSION MOVIL */
+
+/* header */
+
+header{
+    background-color: var(--Amarillo);
+}
+
+.countainer{
+    text-align: initial;
+    display: flex;
+}
+
+ul li{font-size: 12px; list-style: none;}
+
+.titular1{
+    font-size: 12px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-align: initial;
+ }
+
+ .barraDeBusqueda{
+    width: 50%;
+    border-radius: 5px;
+    border: solid 2px white;
+ }
+
+ .logo{
+    width: 50%;
+    margin: 5px 5px 5px 5px;
+ }
+
+ .fa-magnifying-glass:before, .fa-search:before {
+    content: "\f002";
+    background-color: white;
+    position: relative;
+    top: 2px;
+    right: 7px;
+    border-radius: 3px;
+    border: solid 3px white;
+}
+
+.bars{
+    text-align: center;
+    width: 12%;
+    margin: 0px 0px 0px 0px;
+    background-color: var(--Azul);
+    color: white;
+    position: relative;
+    left: 41%;
+    border-radius: 5px;
+    padding: 4px 3px 3px 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    position: relative;
+    bottom: 3px;
+}
+
+.countainer{
+    display: none;
+}
+
+.logo-barra{
+    display: flex;
+    align-items: center;
+}
+
+.navega{
+    text-align: center;
+}
+
+/* -----------------------------------------------------------------------------------------------------------*/
+
+/* main */
+
+main{
+    background-color: var(--GrisClaro);
+}
+
+.cajaPadre{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.caja{
+    border-radius: 4px;
+    border: solid 3px white;
+    width: 50%;
+}
+
+.countainer-registro{
+    text-align: center;
+}
+
+.caja1{
+    width: 40%;
+    background-color: var(--Celeste);
+    color: white;
+    border-radius: 4px;
+    border: solid 3px var(--Celeste);
+    margin-bottom: 5px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/* footer */
+
+footer{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.fa-credit-card:before {
+    content: "\f09d";
+    color: var(--Celeste);
+ }
+
+ .fa-gift:before {
+    content: "\f06b";
+    color: var(--Celeste);
+}
+
+.fa-user-shield:before {
+    content: "\f505";
+    color: var(--Celeste);
+} 
+
+ .pieDePagina{
+    margin-top: 4px;
+    margin-bottom: 4px;
+ }
+
+ .Hipertexto{
+    margin-top: 0px;
+ }
+
+ .textoFinal{
+    font-size: 14px;
+    opacity: 30%;
+    text-align: initial;
+ }
+
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+/* VERSION TABLET */
+@media(min-width: 360px){
+
+    .bars{
+        display: none;
+    }
+
+    .barraDeBusqueda{
+        width: 85%;
+    }
+
+    .logo-barra-dato{
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-barra{
+        width: 75%;
+    }
+
+    .titular1{
+        margin-left: 5%;
+    }
+
+    .cajas1{
+        display: flex;
+    }
+
+    .cajas{
+        padding: 5px 5px 5px 5px;
+    }
+
+    .countainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cajas2{
+        display: flex;
+        padding: 5px 5px 5px 5px;
+        margin-right: 5px;
+    }
+
+    .navv{
+        width: 50%;
+    }
+
+    .nav2{
+        position: relative;
+        left: 20%;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+/* VERSION DESKTOP */
+@media(min-width: 761px){
+    .bars{
+        display: none;
+    }
+
+    .barraDeBusqueda{
+        width: 85%;
+    }
+
+    .logo-barra-dato{
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-barra{
+        width: 75%;
+    }
+
+    .titular1{
+        margin-left: 5%;
+    }
+
+    .cajas1{
+        display: flex;
+    }
+
+    .cajas{
+        padding: 5px 5px 5px 5px;
+    }
+
+    .countainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cajas2{
+        display: flex;
+        padding: 5px 5px 5px 5px;
+        margin-right: 5px;
+    }
+
+    .navv{
+        width: 50%;
+    }
+
+    .nav2{
+        position: relative;
+        left: 20%;
+    }
+} 
